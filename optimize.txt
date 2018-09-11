@@ -1,5 +1,6 @@
-﻿1. 分析词频，找到合适的词典大小，而不是随便设置一个 20000。
-2. 尝试 Bi-LSTM，看看模型性能是否提高。
-3. 试试不同的优化函数，看看训练速度和模型性能是否提高。
-4. 尝试使用别人预训练好的中文词嵌入，参考文档：https://github.com/Embedding/Chinese-Word-Vectors
-5. 尝试找到最好的 sampled loss 中的 num_samples 。
+1. 找到合适的语料库（问答形式）
+2. 分析词频，找到合适的词典大小，而不是随便设置一个 20000。
+3. 尝试 Bi-LSTM，看看模型性能是否提高。
+4. 试试不同的优化函数，看看训练速度和模型性能是否提高。
+5. 尝试使用别人预训练好的中文词嵌入，参考文档：https://github.com/Embedding/Chinese-Word-Vectors
+6. 尝试找到最好的 sampled loss 中的 num_samples 。
